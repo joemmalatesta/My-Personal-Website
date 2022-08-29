@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style: none;
+}
+body{
+    background-color: rgb(12,12,12) !important;
+    color: rgb(215, 215, 215) !important;
+}
+/* section{
+    height: 100vh;
+} */
+.navbar-colors{
+    background-color: rgb(40,40,40);
+    color: rgb(255,255,255);
+}
+.navigation-element{
+    font-size: 1.5rem !important;
+}
+.navigation-link:hover{
+    color: #3cdfff !important;
+    transition: .5s;
+}
+.main-statement h1{
+    font-family: 'Josefun Sans', sans-serif;
+    font-size: 5rem;
+}
+.main-statement p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+}
+@media all and (max-width: 500px) {
+    .aboutme h1{
+        font-size: 12vw;
+    }
+}
+.blogpost{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.hamburger{
+    outline: 1px solid black;
+
+}
+
+.card-pic{
+    object-fit: cover;
+    height: 100%;
+}
+.card{
+    text-align: center;
+}
+
+#nameplate{
+    position: relative;
+    top: .4rem;
+    font-family: 'Raleway', cursive;
+    font-size: 3rem;
+}
+#color1{
+    color: #3cdfff;
+
+}
+#color2{
+    color: white;
+}
+
+#input-email{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+#submit-button {
+    position: relative;
+    bottom: 2px;
+    width: 6rem;
+    height: 3rem;
+}
+#input-email::placeholder{
+    position: relative;
+    left: .07rem;
+    color: black;
+    transition: color .5s ease;
+}
+#input-email:focus::placeholder{
+    color: transparent;
+}
+.arrow{
+    text-align: center;
+    padding: 1rem;
+}
+
+.copyright{
+    font-size: 1.25rem;
+}
+.mobile-only{
+    width: 10rem;
+}
+@media screen and (min-width: 1000px){
+    .mobile-only{
+        display: none !important;
+    }
+}
+@media all and (max-width: 650px) {
+    .copyright{
+        font-size: 2vh;
+    }
+    #mailto{
+        width: 6.5vh;
+    }
+    .copy-pic{
+        width: 3vh;
+    }
+    #input-email{
+        max-width: 70%;
+    }
+    #submit-button{
+        font-size: smaller;
+        max-width: 25%;
+        height: 3rem;
+    }
+    .main-statement h1{
+        font-size: 3.7rem;
+    }
+    .main-statement p {
+        font-size: 1.5rem;
+    }
+
+}
+#mailto {
+    position: relative;
+    right: .7rem;
+}
+.card {
+    background-color: rgb(46, 46, 46) !important;
+    color: rgba(255, 255, 255, 0.712);
+    font-family: 'EB Garamond', sans-serif;
+}
+.card-title {
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: bold !important;
+}
+.card-text{
+    font-size: 1rem;
+}
+.card:hover{
+    border-bottom: 5px solid #3cdfff;
+    transition: .2s;
+}
+.standout {
+    color: #3cdfff;
+}
+.about-items h1{
+    font-size: 1.5rem;
+}
+.blog-content h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.blog-content p{
+    font-family: 'Monsterrat', sans-serif;
+}
