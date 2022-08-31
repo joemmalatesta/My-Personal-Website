@@ -89,12 +89,40 @@
         <!-- ABOUT ME -->
         <div id="about" class="pt-4 container-md d-flex flex-row">
             <ul class="about-items">
-                <li><h1>I'm a <span class="standout">junior</span> at Oakland University, studying <span class="standout">computer science</span></h1></li>
-                <li><h1>I'm based in Michgian</h1></li>
-                <li><h1>I became interested in <span class="standout">automation</span> 5 years ago but began programming only <span class="standout">2 years </span>ago</h1></li>
-                <li><h1>I mainly program in  <span class="standout">python</span> and <span class="standout">java,</span> and aspire to work as a <span class="standout">software developer</span></h1></li>
-                <li><h1>This summer, I'm hoping to find a software development <span class="standout">internship</span></h1></li>
-                <li class="pt-4" style="text-align: center;"><h1>Check out what I'm creating on my <a class="navigation-link" style="border-bottom: 2px solid #3cdfff; color: rgb(215, 215, 215)" href="">Github</a></h1></li>
+                <li><h1>I'm an aspiring <span class="standout">software developer</span> open to internship opportunities.
+                I'm based in Michgian and am pursuing my <span class="standout">Bachelors in Computer Science</span> at Oakland University.
+                I'm well versed in many programming languages and technologies, and am always learning more.</h1></li>
+                 <li><h1>Python, Java, HTML, CSS, Bootstrap, PHP, SQL, NoSQL, Google cloud servers, Linux</h1></li>
+                 <li><h1>Beyond all that, I love to travel and hope to see all that the world has to offer.</h1></li>
+
+                 <!-- PUT ALL THE LOGOS HERE. -->
+                <li class="pt-4" style="text-align: center;"><h1>See what I've been up to on my <a class="navigation-link" style="border-bottom: 2px solid #3cdfff; color: rgb(215, 215, 215)" href="github.com">Github</a></h1></li>
+                <div class="container-md d-flex justify-content-around pt-3">
+                    <div class="row">
+                        <div class="col-md">
+                            <div class="row navbar-colors p-2">
+                                <div class="col-md align-self-center">
+                                    <a href="github.com"><h1 class="standout">osu! Discord Bot</h1></a> 
+                                    <p>Accept, display, and store data for osu! players via discord and osu! API's</p>
+                                </div>
+                                <div class="col-md">
+                                    <img class="img-fluid" src="/images/me.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                        <div class="row navbar-colors p-2">
+                                <div class="col-md align-self-center">
+                                <a href="github.com"><h1 class="standout">Camp Scripts</h1></a> 
+                                    <p>These are some of the programs I created and taught to my students this summer.</p>
+                                </div>
+                                <div class="col-md">
+                                    <img class="img-fluid" src="/images/helping.jpeg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
                 <!-- <img class="img-fluid" src="/Personal Website/shoes.png" alt=""> -->
@@ -125,8 +153,8 @@
                         <div class="card-body">
                         <h4 class="card-title">Humble Beginnings</h5>
                         <p class="card-text">A dive into my introduction to computer science, automation, and the unrealistic expectations I had.</p>
-                        <a href="humble-beginnings.html" class="stretched-link"></a>
-                        <a href="humble-beginnings.html" class="btn  btn-primary mobile-only">Read More</a>
+                        <a href="humble-beginnings.php" class="stretched-link"></a>
+                        <a href="humble-beginnings.php" class="btn  btn-primary mobile-only">Read More</a>
                         </div>
 
                     </div>
