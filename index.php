@@ -60,12 +60,14 @@
 
 
     <!-- MAIN -->
+    <!-- TODO Change font -->
         <div class="container-fluid text-center main-statement p-3 pt-4 main">
             <div class="row">
                 <div class="col-lg-6 col-md align-self-center text-wrap">
                     <h1><span class="standout">Joe</span> Malatesta</h1>
+                    <p>Inspired by Innovation</p>
                     <!-- <p>Absolve the guilt that shackles your soul</p> -->
-                    <p>Studying. Learning. Teaching.</p>
+                    <!-- <p>Studying. Learning. Teaching.</p> -->
                     <!-- <h2>Python. Java. HTML. CSS.</h2> -->
                 </div>
                 <div class="col-lg-6 col-md">
@@ -78,7 +80,7 @@
         <!-- ABOUT ME STATEMENT -->
         <div class="container-md pt-3 blog-statement">
                 <h1 style="text-align: center;">About Me</h1>
-                <p style="text-align:center;">Dive a little deeper into my programming journey</p>
+                <p style="text-align:center;">My story, my vision, and my cause</p>
             </div>
             <div class="arrow">
                 <a href="#about" style="text-align: center;"><img src="images/arrow.png" alt="" width="100"></a>
@@ -87,17 +89,35 @@
 
 
         <!-- ABOUT ME -->
-        <div id="about" class="pt-4 container-md d-flex flex-row">
+        <div id="about" class="pt-4 container-md">
             <ul class="about-items">
                 <li><h1>I'm an aspiring <span class="standout">software developer</span> open to internship opportunities.
-                I'm based in Michgian and am pursuing my <span class="standout">Bachelors in Computer Science</span> at Oakland University.
-                I'm well versed in many programming languages and technologies, and am always learning more.</h1></li>
-                 <li><h1>Python, Java, HTML, CSS, Bootstrap, PHP, SQL, NoSQL, Google cloud servers, Linux</h1></li>
-                 <li><h1>Beyond all that, I love to travel and hope to see all that the world has to offer.</h1></li>
+                I'm based in Michigan and am pursuing a <span class="standout">Bachelors of Computer Science</span> at Oakland University.
+                Since high school, I've had visions of creating ethical, creative, and effective automation software.
+                I strive to write readable and maintainable code and I'm driven by my strong will to learn, experiment, and invent.
+                I'm well versed in many programming languages and technologies, and I'm always learning more.
+                You can check out what im doing over at my <a style="color: rgb(215,215,215) !important; border-bottom: 2px solid #3cdfff"  class="navigation-link" href="github.com">Github</a></h1></li>
+                 <li id="about-logos" style="text-align: center;" class="justify-content-between align-items-center py-2">
+                    <img class="img-fluid" src="/images/about logos/python.png" alt="python logo" width="40">
+                    <img class="img-fluid" src="/images/about logos/java.png" alt="java logo" width="40">
+                    <img class="img-fluid" src="/images/about logos/html.png" alt="html logo" width="50">
+                    <img class="img-fluid" src="/images/about logos/css.png" alt="css logo" width="40">
+                    <img class="img-fluid" src="/images/about logos/bootstrap.png" alt="bootstrap logo" width="50">
+                    <img class="img-fluid" src="/images/about logos/php.png" alt="php logo" width="60">
+                    <img class="img-fluid" src="/images/about logos/mongo.png" alt="mongo logo" width="70">
+                    <img class="img-fluid" src="/images/about logos/sql.png" alt="mysql logo" width="80">
+                    <img class="img-fluid" src="/images/about logos/Tux.png" alt="linux logo" width="40">                    
+                 </li>
+                 <!-- <li style="text-align: center;"><h1>Check out what I'm doing over at <a style="color: rgb(255,255,255); border-bottom: 2px solid #3cdfff"  class="navigation-link" href="github.com">Github</a></h1></li> -->
+                 <div class="extra-about-stuff">
+                 <!-- <img id="main-about-picture" class="img-fluid" src="/images/hawaii.jpeg" alt="me in bologna, italy."> -->
+                 <li class="pt-2"><h1>Beyond all that, I love to travel and hope to see all that the world has to offer.</h1></li>
+                 </div>
 
-                 <!-- PUT ALL THE LOGOS HERE. -->
-                <li class="pt-4" style="text-align: center;"><h1>See what I've been up to on my <a class="navigation-link" style="border-bottom: 2px solid #3cdfff; color: rgb(215, 215, 215)" href="github.com">Github</a></h1></li>
-                <div class="container-md d-flex justify-content-around pt-3">
+
+                <!-- GITHUB CARDS. REDO THESE OR PUT SOMEWHERE ELSE WHEN MORE PROEJCTS ARE DONE. -->
+
+            <!--<div class="container-md d-flex justify-content-around pt-3">
                     <div class="row">
                         <div class="col-md">
                             <div class="row navbar-colors p-2">
@@ -122,7 +142,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
 
                 <!-- <img class="img-fluid" src="/Personal Website/shoes.png" alt=""> -->
@@ -134,8 +154,8 @@
 
         <!-- BLOG STATEMENT -->
         <div class="container-md pt-3 blog-statement">
-                    <h1 style="text-align: center;">Check ot my Recent Blogposts!</h1>
-                    <p style="text-align:center;">I write about my personal experiecnes with developing, learning, and teaching programming</p>
+                    <h1 style="text-align: center;">Check out my Recent Blogposts!</h1>
+                    <p style="text-align:center;">I write about my personal experiecnes with learning and developing, as well as current projects I'm working on.</p>
             </div>
             <div class="arrow">
             <a href="#cards" style="text-align: center;"><img src="images/arrow.png" alt="" width="100"></a>
@@ -149,6 +169,7 @@
             <div id="cards" class="container-md py-3 text-dark">
                 <div class="row cards">
                     <div class="card col-sm card p-1 mx-lg-2 mb-3" style="max-width: 100%;">
+                    <!-- Picture should be me with shoe on my head or something. -->
                         <img src="images/redcircle.jpeg" class="card-img-top card-pic" alt="..." style="border-radius: 12px;">
                         <div class="card-body">
                         <h4 class="card-title">Humble Beginnings</h5>
@@ -168,6 +189,7 @@
                         </div>
                     </div>
                     <div class="card col-sm card p-1 mx-lg-2 mb-3" style="max-width: 100%;">
+                    <!-- Have the picture be me looking up how to center a div -->
                         <img src="images/dapper.jpeg" class="card-img-top card-pic" alt="..." style="border-radius: 12px;">
                         <div class="card-body">
                         <h4 class="card-title">My battle with front-end</h5>
