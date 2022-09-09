@@ -95,7 +95,7 @@
                 Since high school, I've had visions of creating ethical, creative, and effective automation software.
                 I strive to write readable and maintainable code and I'm driven by my strong will to learn, experiment, and invent.
                 I'm well versed in many programming languages and technologies, and I'm always learning more.
-                You can check out what im doing over at my <a style="color: rgb(215,215,215); border-bottom: 2px solid #3cdfff;"  class="navigation-link" href="github.com">Github</a></h1></li>
+                You can check out what im doing over at my <a style="color: rgb(215,215,215); border-bottom: 2px solid #3cdfff;"  class="navigation-link" href="https://github.com/joemmalatesta">Github</a></h1></li>
                 <li id="about-logos" class="justify-content-between align-items-center py-2 text-center">
                     <img class="img-fluid" src="/images/about logos/python.png" alt="python logo" width="40">
                     <img class="img-fluid" src="/images/about logos/java.png" alt="java logo" width="40">
@@ -169,51 +169,45 @@
                 <div class="row cards">
                     <div class="card col-sm card p-1 mx-lg-2 mb-3" style="max-width: 100%;">
                     <!-- Picture should be me with shoe on my head or something. -->
-                        <img src="images/redcircle.jpeg" class="card-img-top card-pic" alt="..." style="border-radius: 12px;">
+                        <img src="images/shoe on my head.jpeg" class="card-img-top card-pic" alt="Shoe on my head. Pilot blog post picture">
                         <div class="card-body">
-                        <h4 class="card-title">Humble Beginnings</h5>
-                        <p class="card-text">A dive into my introduction to computer science, automation, and the unrealistic expectations I had.</p>
+                        <h4 class="card-title">Pilot</h5>
+                        <p class="card-text">A dive into my introduction to computer science and automation<span style="font-weight: bold; line-height: 0;"> Aug 25, 2022</span></p>
                         <a href="humble-beginnings.php" class="stretched-link"></a>
-                        <a href="humble-beginnings.php" class="btn  btn-primary mobile-only">Read More</a>
+                        <a href="humble-beginnings.php" class="btn btn-primary mobile-only">Read More</a>
                         </div>
 
                     </div>
                     <div class="card col-sm card p-1 mx-lg-2 mb-3" style="max-width: 100%;">
-                        <img src="images/teaching.jpeg" class="card-img-top card-pic" alt="..." style="border-radius: 12px;">
+                        <img src="images/teaching.jpeg" class="card-img-top card-pic" alt="Teaching the class">
                         <div class="card-body">
                         <h4 class="card-title">Beginners teaching beginners</h5>
-                        <p class="card-text">How my co-workers and I managed to teach computer science to beginners without knowing a whole lot more than them.</p>
-                        <a href="beginners.html" class="stretched-link"></a>
-                        <a href="beginners.html" class="btn  btn-primary mobile-only">Read More</a>
+                        <p class="card-text">Coming Soon!!</p>
+                        <a href="beginners.php" class="stretched-link"></a>
+                        <a href="beginners.php" class="btn  btn-primary mobile-only">Read More</a>
                         </div>
                     </div>
                     <div class="card col-sm card p-1 mx-lg-2 mb-3" style="max-width: 100%;">
                     <!-- Have the picture be me looking up how to center a div -->
-                        <img src="images/dapper.jpeg" class="card-img-top card-pic" alt="..." style="border-radius: 12px;">
+                        <img src="images/dapper.jpeg" class="card-img-top card-pic" alt="How do I center a div?">
                         <div class="card-body">
                         <h4 class="card-title">My battle with front-end</h5>
-                        <p class="card-text">A history of my battle with laying out, coding, and writing this website, and how I arrived here.<span style="font-weight: bold; line-height: 0;"> Apr 25, 2022</span></p>
-                        <a href="front-end-rant.html" class="stretched-link"></a>
-                        <a href="front-end-rant.html" class="btn  btn-primary mobile-only">Read More</a>
+                        <p class="card-text">Coming Soon</p>
+                        <a href="front-end-rant.php" class="stretched-link"></a>
+                        <a href="front-end-rant.php" class="btn  btn-primary mobile-only">Read More</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- NEWSLETTER -->
-
-        <!-- <form id="newsletter" action="#newsletter" method="POST">
-        Email: <input id="email" type="text" name="email">
-        <button type="submit" name="submit">Submit</button>
-         </form> -->
 
             <div class="container-md py-3">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm" style="text-align: center;">
+                    <div class="col-lg-6 col-md-6 col-sm text-center">
                         <h1><span class="standout">SIGN UP</span> TO MY NEWSLETTER</h1>
                         <p>Get notified of <span class="standout">new</span> blog posts and updates!</p>
                     </div>
-                    <div class="col-lg-6 col-md-4 col-sm pt-2" style="text-align: center;">
+                    <div class="col-lg-6 col-md-4 col-sm pt-2 text-center">
                     <form id="newsletter" action="#newsletter" method="POST">
                         <input id="input-email" name="email" type="email" placeholder="Enter your email">
                         <button id="submit-button" name="submit" class="btn btn-success">Subscribe</button>
@@ -230,7 +224,7 @@
             <!-- FOOTER -->
             <div class="footer pt-2 container-fluid d-flex justify-content-between align-items-center" style="background-color: rgb(116, 116, 116);">
                 <div>
-                    <h1 class="copyright px-lg-5">© Joe Malatesta. 2022</h1>
+                    <h1 class="copyright px-lg-5" style="color: black;">© Joe Malatesta. 2022</h1>
                 </div>
                 <div>
                     <ul class="links d-flex align-items-center px-lg-5">
