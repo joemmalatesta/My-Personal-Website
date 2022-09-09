@@ -9,14 +9,14 @@ body{
     color: rgb(215, 215, 215) !important;
 }
 .navbar-colors{
-    background-color: rgb(40,40,40);
+    background-color: #262626;
     color: rgb(255,255,255);
 }
 .navigation-element{
     font-size: 1.5rem !important;
 }
 .navigation-link:hover{
-    color: #3cdfff !important;
+    color: #30d5c8 !important;
     transition: .5s;
 }
 .main-statement h1{
@@ -55,7 +55,7 @@ body{
     font-size: 3rem;
 }
 #color1{
-    color: #3cdfff;
+    color: #30d5c8;
 
 }
 #color2{
@@ -89,7 +89,8 @@ body{
 }
 
 .copyright{
-    font-size: 1.25rem;
+    color: #121212;
+    font-size: 1.5rem;
 }
 .mobile-only{
     width: 10rem;
@@ -144,11 +145,11 @@ body{
     font-size: 1rem;
 }
 .card:hover{
-    border-bottom: 5px solid #3cdfff;
+    border-bottom: 5px solid #30d5c8;
     transition: .2s;
 }
 .standout {
-    color: #3cdfff;
+    color: #30d5c8;
 }
 .about-items h1{
     font-size: 1.5rem;
@@ -165,8 +166,23 @@ body{
 #main-about-picture{
     width: 70%;
 }
-.extra-about-stuff{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+
+
+/* Blog stuff*/
+.blog-title{
+    color:#30d5c8;
+    font-family: 
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+.blog-header{
+    color:#78e9ff;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.blog-text{
+    font-size: 1.3rem;
+    font-family: 'Monsterrat', sans-serif;
 }

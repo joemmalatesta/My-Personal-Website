@@ -1,5 +1,4 @@
 <?php 
-
         $formSubmitted = false;
 
 
@@ -53,7 +52,7 @@
             <li><a class="navigation-element navigation-link nav-link text-light" href="#about">About</a></li>
             <li><a class="navigation-element navigation-link nav-link text-light" href="#cards">Blog</a></li>
             <!-- <li><a class="navigation-element nav-link text-light" href="#experience">Experiecne</a></li> -->
-            <li><a class="navigation-element navigation-link nav-link text-light" href="Joseph M.pdf" target="_blank">Resume</a></li>
+            <li><a class="navigation-element navigation-link nav-link text-light" href="Joseph Malatesta.pdf" target="_blank">Resume</a></li>
           </ul>
         </div> 
       </nav>
@@ -78,9 +77,9 @@
 
 
         <!-- ABOUT ME STATEMENT -->
-        <div class="container-md pt-3 blog-statement">
-                <h1 style="text-align: center;">About Me</h1>
-                <p style="text-align:center;">My story, my vision, and my cause</p>
+        <div class="container-md pt-3 blog-statement text-center">
+                <h1>About Me</h1>
+                <p>My story, my vision, and my cause</p>
             </div>
             <div class="arrow">
                 <a href="#about" style="text-align: center;"><img src="images/arrow.png" alt="" width="100"></a>
@@ -96,8 +95,8 @@
                 Since high school, I've had visions of creating ethical, creative, and effective automation software.
                 I strive to write readable and maintainable code and I'm driven by my strong will to learn, experiment, and invent.
                 I'm well versed in many programming languages and technologies, and I'm always learning more.
-                You can check out what im doing over at my <a style="color: rgb(215,215,215) !important; border-bottom: 2px solid #3cdfff"  class="navigation-link" href="github.com">Github</a></h1></li>
-                 <li id="about-logos" style="text-align: center;" class="justify-content-between align-items-center py-2">
+                You can check out what im doing over at my <a style="color: rgb(215,215,215); border-bottom: 2px solid #3cdfff;"  class="navigation-link" href="github.com">Github</a></h1></li>
+                <li id="about-logos" class="justify-content-between align-items-center py-2 text-center">
                     <img class="img-fluid" src="/images/about logos/python.png" alt="python logo" width="40">
                     <img class="img-fluid" src="/images/about logos/java.png" alt="java logo" width="40">
                     <img class="img-fluid" src="/images/about logos/html.png" alt="html logo" width="50">
@@ -107,12 +106,12 @@
                     <img class="img-fluid" src="/images/about logos/mongo.png" alt="mongo logo" width="70">
                     <img class="img-fluid" src="/images/about logos/sql.png" alt="mysql logo" width="80">
                     <img class="img-fluid" src="/images/about logos/Tux.png" alt="linux logo" width="40">                    
-                 </li>
-                 <!-- <li style="text-align: center;"><h1>Check out what I'm doing over at <a style="color: rgb(255,255,255); border-bottom: 2px solid #3cdfff"  class="navigation-link" href="github.com">Github</a></h1></li> -->
-                 <div class="extra-about-stuff">
-                 <!-- <img id="main-about-picture" class="img-fluid" src="/images/hawaii.jpeg" alt="me in bologna, italy."> -->
-                 <li class="pt-2"><h1>Beyond all that, I love to travel and hope to see all that the world has to offer.</h1></li>
-                 </div>
+                </li>
+                <!-- <li style="text-align: center;"><h1>Check out what I'm doing over at <a style="color: rgb(255,255,255); border-bottom: 2px solid #3cdfff"  class="navigation-link" href="github.com">Github</a></h1></li> -->
+                <!-- <img id="main-about-picture" class="img-fluid" src="/images/hawaii.jpeg" alt="me in bologna, italy."> -->
+                <li class="pt-2 text-center"><h1>Beyond all that, I love to travel and hope to see all that the world has to offer.</h1></li>
+            </ul>
+        </div>
 
 
                 <!-- GITHUB CARDS. REDO THESE OR PUT SOMEWHERE ELSE WHEN MORE PROEJCTS ARE DONE. -->
